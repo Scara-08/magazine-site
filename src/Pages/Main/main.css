@@ -1,0 +1,97 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: Gilroy-Bold;
+}
+
+.logo {
+    font-family: Gilroy-Bold;
+    padding: 20px;
+    font-size: 50px;
+}
+
+p {
+    font-family: Gilroy-Bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 2px rgb(114, 114, 114);
+}
+
+h2 {
+    font-family: Gilroy-Bold;
+}
+
+.link {
+    color: rgb(109, 109, 109);
+}
+
+.link:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+
+.holder {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 100px;
+    padding: 30px;
+}
+
+.search {
+    width: 33px;
+    height: 33px;
+}
+
+.search img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.miner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.miner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.miner img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+button {
+    width: 70px;
+    height: 60px;
+    font-family: Gilroy-Bold;
+    background-color: aliceblue;
+    border: none;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+button:active {
+    transform: scale(1.2);
+}
